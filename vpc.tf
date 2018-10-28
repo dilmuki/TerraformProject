@@ -24,12 +24,8 @@ resource "aws_route_table" "artemis" {
     gateway_id = "${aws_internet_gateway.artemis.id}"
   }
 }
+
 resource "aws_route_table_association" "artemis" {
-	subnet_id = "${aws_subnet.artemis-public.id}"
-	route_table_id = "${aws_route_table.artemis.id}"
-
+  subnet_id      = "${aws_subnet.artemis-public.id}"
+  route_table_id = "${aws_route_table.artemis.id}"
 }
-
-
-
-
