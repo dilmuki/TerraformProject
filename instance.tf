@@ -1,4 +1,4 @@
-#resource "aws_instance" "instance1" {
+# resource "aws_instance" "instance1" {
 #  ami                         = "ami-0c21ae4a3bd190229"
 #  instance_type               = "t2.micro"
 #  key_name                    = "project1"
