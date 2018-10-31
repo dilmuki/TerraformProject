@@ -1,4 +1,4 @@
 #!/bin/bash
-yum install mariadb-server mysql -y
-systemctl start mysqld
+yum install  mysql mariadb-server -y
+systemctl start mysqld 
 
