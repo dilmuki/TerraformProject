@@ -1,10 +1,6 @@
-variable "region" {
-  default = "eu-west-1"
-}
+variable "region" {}
 
-variable "appname" {
-  default = "KadirovichProject"
-}
+variable "appname" {}
 
 variable "amis" {
   type = "map"
@@ -15,9 +11,7 @@ variable "amis" {
   }
 }
 
-variable "Environment" {
-  default = "Dev"
-}
+variable "Environment" {}
 
 variable "Created_by" {
   default = "Dilmurod"
